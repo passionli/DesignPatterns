@@ -30,3 +30,9 @@ proguard/
 
 # Android Studio captures folder
 captures/
+
+# ignore eclipse files
+.project
+.classpath
+.settings
+.metadata
