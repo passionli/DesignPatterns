@@ -8,6 +8,8 @@ Android Source Design Patterns
 ##方法
 1.看书学理论  
 2.跟代码实践
+##重点
+暂无
 
 ##FINISH
 1.MVC  
