@@ -1,11 +1,13 @@
 package com.android.designpatterns;
 
 /**
- * »·¾³ÉÏÏÂÎÄ¡£³éÏó³ö½Ó¿Ú£¬ÈÃ×ÓÀàÊµÏÖ¡£
+ * ç¯å¢ƒä¸Šä¸‹æ–‡
+ * 
  * @author passionli@vip.qq.com
  *
  */
 public abstract class Context {
 	abstract void startActivity();
+
 	abstract void sendBroadcast();
 }

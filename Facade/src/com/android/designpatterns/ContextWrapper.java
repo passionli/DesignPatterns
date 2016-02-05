@@ -1,14 +1,13 @@
 package com.android.designpatterns;
 
 /**
- * »·¾³ÉÏÏÂÎÄ°ü×°Àà¡£Ö»ÊÇ´úÀí£¬¾ßÌåÊµÏÖ½»¸øContextÁíÒ»¸ö×ÓÀàContextImpl¡£
- * ¿ÉÒÔÊ¹µÃÒ»¸ö×ÓÀà³ıÁË¾ßÓĞ×Ô¼º¾ßÌåµÄ¹¦ÄÜÖ®Íâ£¬Ò²¾ßÓĞÁíÒ»¸ö×ÓÀàµÄ¹¦ÄÜ¡£
- * ´úÂëÄ£¿é»¯£¬¸´ÓÃĞÔ¸ß¡£
+ * åŒ…è£…å™¨
+ * 
  * @author passionli@vip.qq.com
  *
  */
 public class ContextWrapper extends Context {
-	// ´úÀí
+	// ä»£ç†
 	private Context mBase;
 
 	public void attachBaseContext(Context context) {
