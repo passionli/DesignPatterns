@@ -12,7 +12,7 @@ public class ContextWrapper extends Context {
 
 	public void attachBaseContext(Context context) {
 		if (mBase != null) {
-			throw new IllegalStateException();
+			throw new IllegalStateException("Already has a context");
 		}
 
 		mBase = context;
