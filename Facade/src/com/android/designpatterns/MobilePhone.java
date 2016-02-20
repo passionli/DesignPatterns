@@ -2,6 +2,7 @@ package com.android.designpatterns;
 
 public abstract class MobilePhone {
 	private static final String TAG = MobilePhone.class.getSimpleName();
+	// 多个子系统
 	private Phone mPhone = createPhone();
 	private Camera mCamera = createdCamera();
 
@@ -26,6 +27,7 @@ public abstract class MobilePhone {
 
 	public void videoChat() {
 		System.out.println(TAG + " videoChat");
+		// 封装子系统联合操作
 		mCamera.open();
 		mPhone.dail();
 	}
