@@ -14,7 +14,9 @@ Android Source Design Patterns
 ##FINISH
 1.MVC  
 2.MVP
+3.Facade
+4.Flyweight
 
 ##TODO
-1.外观模式  
-2.单例模式
+1.Singleton  
+2.Proxy
