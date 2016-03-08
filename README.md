@@ -16,6 +16,7 @@ Android Source Design Patterns
 2.MVP  
 3.Facade  
 4.Flyweight  
+5.Composite  
 
 ##TODO
 1.Singleton  
