@@ -18,9 +18,9 @@ Android Source Design Patterns
 4.Flyweight  
 5.Composite  
 6.Proxy  
+7.Decorator  
 
 ##TODO
-1.Singleton  
-2.Decorator  
-3.Adapter  
-4.Observer 
+1.Singleton    
+2.Adapter  
+3.Observer  
